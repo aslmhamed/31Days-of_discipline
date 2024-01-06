@@ -13,18 +13,18 @@ B. Homogeneous Elements
 
 	An array in C cannot have elements of different data types. All the elements are of the same type. like in my code2.c if you tried to run the code you will get this error message;
  
- main.c: In function ‘main’:
-main.c:12:16: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
-   12 |         arr[2] = "Arrays";
-      |                ^
-main.c:17:28: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
-   17 |         printf("Array[3]: %s", arr[2]);
-      |                           ~^   ~~~~~~
-      |                            |      |
-      |                            char * int
-      |                           %d
-Array[1]: 1
-Array[2]: 2
+ 	main.c: In function ‘main’:
+	main.c:12:16: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   	12 |         arr[2] = "Arrays";
+      	|                ^
+	main.c:17:28: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   	17 |         printf("Array[3]: %s", arr[2]);
+      	|                           ~^   ~~~~~~
+      	|                            |      |
+      	|                            char * int
+      	|                           %d
+	Array[1]: 1
+	Array[2]: 2
 
 
 C. Indexing in Array

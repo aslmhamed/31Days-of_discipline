@@ -11,11 +11,9 @@ A. Fixed Size Collection
 
 B. Homogeneous Elements
 
-	An array in C cannot have elements of different data types. 
-All the elements are of the same type. like in my code2.c if you tried to run the code you will get this error message;
-
-
-main.c: In function ‘main’:
+	An array in C cannot have elements of different data types. All the elements are of the same type. like in my code2.c if you tried to run the code you will get this error message;
+ 
+ main.c: In function ‘main’:
 main.c:12:16: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
    12 |         arr[2] = "Arrays";
       |                ^
@@ -31,8 +29,7 @@ Array[2]: 2
 
 C. Indexing in Array
 	
-	Indexing of elements in an Array in C starts with 0 instead of 1. 
-It means that the index of the first element will be 0 and the last element will be (size – 1) where size is the size of the array
+	Indexing of elements in an Array in C starts with 0 instead of 1. It means that the index of the first element will be 0 and the last element will be (size – 1) where size is the size of the array
 
 D. Dimensions of Array
 	An array in C can be a single dimensional like a 1-D array or multidimensional like a 2-D array, 3-D array, and so on. 
@@ -44,7 +41,7 @@ E. Contiguous Storage
 	All the elements in an array are stored at contiguous or consecutive memory locations
 
 F. Random Access
-It is one of the defining properties of an Array in C. It means that we can randomly access any element in the array without touching any other element using its index.
+	It is one of the defining properties of an Array in C. It means that we can randomly access any element in the array without touching any other element using its index.
 
 G. Array name relation with pointer // I didn't get to the point, so i won't right any explantion for it...
 H. Bound Checking

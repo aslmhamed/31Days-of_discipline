@@ -32,6 +32,7 @@ C. Indexing in Array
 	Indexing of elements in an Array in C starts with 0 instead of 1. It means that the index of the first element will be 0 and the last element will be (size – 1) where size is the size of the array
 
 D. Dimensions of Array
+
 	An array in C can be a single dimensional like a 1-D array or multidimensional like a 2-D array, 3-D array, and so on. 
 It can have any number of dimensions. The number of elements in a multidimensional array is the product of the size of all the dimensions.
 

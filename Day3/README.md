@@ -41,6 +41,7 @@ E. Contiguous Storage
 	All the elements in an array are stored at contiguous or consecutive memory locations
 
 F. Random Access
+
 	It is one of the defining properties of an Array in C. It means that we can randomly access any element in the array without touching any other element using its index.
 
 G. Array name relation with pointer // I didn't get to the point, so i won't right any explantion for it...

@@ -41,9 +41,9 @@ void matrixMul(int first_matrix[ROW1][COL1],
     {
         for (j = 0; j < c2; j++)
         {
-            result[i][j] = 0;
+            result[i][j] = 0;  /* initializing elements of the matrix to 0*/
             for (k = 0; k < c1; k++)
-            {
+            {	/* multiplying first and second matrix and storing it in result*/
                 result[i][j] += first_matrix[i][k] * second_matrix[k][j];
             }
         }
